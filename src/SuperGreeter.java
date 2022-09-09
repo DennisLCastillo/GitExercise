@@ -15,10 +15,8 @@ public class SuperGreeter {
         sg.age(age);
 
 
-
-
     }
-    public void start(){
+    public void start() {
         System.out.println("Det virker!");
     }
 
@@ -28,6 +26,9 @@ public class SuperGreeter {
 
     public void age(int age) {
         System.out.println("You are " + age + " years old. Congratz! ");
+        System.out.println("Test");
     }
+
+
 
 }
